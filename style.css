@@ -1,5 +1,5 @@
 * {
-    /*border: 2px solid red; */
+    /* border: 2px solid red; */
     font-size: 18px;
     padding: 0;
     margin: 0;
@@ -137,7 +137,7 @@ h3 {
     justify-content: center;
     width: 160px;
     height: 160px;
-    border: 3px solid blue;
+    border: 3px solid #3882F6;
 }
 
 .text {
@@ -168,9 +168,43 @@ h3 {
     font-weight: bold;
 }
 
+.sign-up {
+    display: flex;
+    padding: 80px 280px;
+}
+
+.banner {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 50px 120px;
+    border-radius: 10px;
+}
+
+.text-section {
+    display: flex;
+    gap: 5px;
+    color: #F9FAF8;
+    flex-direction: column;
+}
+
+.banner-heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner button {
+    border: 2px solid white;
+    font-style: normal;
+}
+
 footer{
     display: flex;
     flex: auto;
     align-items: center;
     justify-content: center;
+    padding: 24px;
 }
