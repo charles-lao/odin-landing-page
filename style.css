@@ -1,4 +1,5 @@
 * {
+    /*border: 2px solid red; */
     font-size: 18px;
     padding: 0;
     margin: 0;
@@ -95,6 +96,81 @@ button:hover{
     background-color: gray;
     width: 1200px;
     height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 320px;
+    gap: 30px;
+}
+
+h3 {
+    flex: 1;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    align-self: center;
+    justify-content: center;
+}
+
+.cards-section {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    align-items: center;
+}
+
+.image {
+    border-radius: 10px;
+    flex: auto;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    border: 3px solid blue;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    width: 160px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 400px;
+    gap: 10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-name {
+    flex: auto;
+    align-self: end;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    flex: auto;
     align-items: center;
     justify-content: center;
 }
