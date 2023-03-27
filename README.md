@@ -1,6 +1,6 @@
-# odin-landing-page
-The Odin Project landing page task - Foundations Course
+# landing-page
+Sample landing page using HTML and vanilla CSS. This project is to learn and practice flexbox.
 
-# github-page
+# live-preview
 https://charles-lao.github.io/odin-landing-page/
 
